@@ -9,7 +9,7 @@ type Options struct {
 
 func setDefault() Options {
 	return Options{
-		path:   "/tmp/go-admin",
+		path:   "/tmp/opennote-admin",
 		suffix: "log",
 	}
 }
