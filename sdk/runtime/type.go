@@ -1,6 +1,7 @@
 package runtime
 
 import (
+	"github.com/casbin/casbin/v2"
 	"github.com/gin-gonic/gin"
 	"net/http"
 
@@ -26,7 +27,7 @@ type Runtime interface {
 
 	GetRouter() []Router
 
-	// SetLogger 使用go-admin定义的logger，参考来源go-micro
+	// SetLogger 使用opennote-admin定义的logger，参考来源go-micro
 	SetLogger(logger logger.Logger)
 	GetLogger() logger.Logger
 
