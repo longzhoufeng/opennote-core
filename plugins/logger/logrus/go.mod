@@ -3,7 +3,7 @@ module github.com/longzhoufeng/opennote-core/plugins/logger/logrus
 go 1.18
 
 require (
-	github.com/longzhoufeng/opennote-core v0.0.0-20230822091555-e3b33591d4c4
+	github.com/longzhoufeng/opennote-core v0.0.1 // indirect
 	github.com/sirupsen/logrus v1.8.0
 )
 
