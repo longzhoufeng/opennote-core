@@ -1,4 +1,4 @@
-# opennote core 公共代码库
+# OpenNote core 公共代码库
 
 ### 功能
 
