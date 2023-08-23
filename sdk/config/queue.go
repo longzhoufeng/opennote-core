@@ -2,6 +2,7 @@ package config
 
 import (
 	"github.com/go-redis/redis/v9"
+	"github.com/longzhoufeng/opennote-core/redisqueue"
 	"github.com/longzhoufeng/opennote-core/storage"
 	"github.com/longzhoufeng/opennote-core/storage/queue"
 	"time"
